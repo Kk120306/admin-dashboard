@@ -25,3 +25,18 @@
 [Search icons](https://www.flaticon.com/free-icons/search)
 
 [Notification icons](https://www.flaticon.com/free-icons/notification)
+
+
+<a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/network" title="network icons">Network icons created by Smashicons - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/eye" title="eye icons">Eye icons created by Kiranshastry - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/avatar" title="avatar icons">Avatar icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/animal" title="animal icons">Animal icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/avatar" title="avatar icons">Avatar icons created by Freepik - Flaticon</a>

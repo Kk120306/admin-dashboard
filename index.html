@@ -8,113 +8,232 @@
 </head>
 <body>
     <div class="container">
-        
         <div class="sidebar">
+            <div class="logos">
             <img src="assets/logo.png" alt="logo" class="logo">
-            <div class="Title">Dashboard</div>
+            <div class="title">Dashboard</div>
+            </div>
 
             <div class="features">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="assets/icons/home.png" alt="home">
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/icons/user.png" alt="profile">
-                            <span>Profile</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/icons/message.png" alt="messages">
-                            <span>Messages</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/icons/history.png" alt="history">
-                            <span>History</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/icons/tasks.png" alt="tasks">
-                            <span>Tasks</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/icons/community.png" alt="communities">
-                            <span>Communities</span>
-                        </a>
-                    </li>
-                </ul>
+            <ul>
+                <li>
+                <a href="#">
+                    <img src="assets/icons/home.png" alt="home" class="shared-img">
+                    <span>Home</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="assets/icons/user.png" alt="profile" class="shared-img">
+                    <span>Profile</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="assets/icons/message.png" alt="messages" class="shared-img">
+                    <span>Messages</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="assets/icons/history.png" alt="history" class="shared-img">
+                    <span>History</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="assets/icons/tasks.png" alt="tasks" class="shared-img">
+                    <span>Tasks</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="assets/icons/community.png" alt="communities" class="shared-img">
+                    <span>Communities</span>
+                </a>
+                </li>
+            </ul>
             </div>
 
             <div class="settings">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="assets/icons/setting.png" alt="settings">
-                            <span>Settings</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/icons/support.png" alt="support">
-                            <span>Support</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/icons/privacy.png" alt="privacy">
-                            <span>Privacy</span>
-                        </a>
-                    </li>
-                </ul>
+            <ul>
+                <li>
+                <a href="#">
+                    <img src="assets/icons/setting.png" alt="settings" class="shared-img">
+                    <span>Settings</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="assets/icons/support.png" alt="support" class="shared-img">
+                    <span>Support</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="assets/icons/privacy.png" alt="privacy" class="shared-img">
+                    <span>Privacy</span>
+                </a>
+                </li>
+            </ul>
             </div>
         </div>
 
-        <div class="header">
+        <div class="page-right">
+            <div class="header">
 
-            <div class="top">
-                <div class="search">
-                    <img src="assets/icons/search.png" alt="search">
-                    <input type="text" placeholder="Search">
+                <div class="top">
+                    <div class="search">
+                        <img src="assets/icons/search.png" alt="search" id="search">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="user">
+                        <img src="assets/icons/notification.png" alt="notification" id="notification">
+                        <img src="assets/icons/profile.png" alt="user" class="top-profile">
+                        <div class="user-name">John Doe</div>
+                    </div>
                 </div>
-                <div class="user">
-                    <img src="assets/icons/notification.png" alt="notification">
-                    <img src="assets/icons/user.png" alt="user" class="top-user">
-                    <div class="user-name">John Doe</div>
+
+                <div class="bottom">
+                    <div class="bottom-left">
+                        <img src="assets/icons/profile.png" alt="user" class="profile-user">
+                        <div class="bottom-left-name">
+                        <div class="intro">Hi there,</div>
+                        <div class="bottom-user-name">John Doe @johndoe</div>
+                        </div>
+                    </div>
+
+                    <div class="bottom-right">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
                 </div>
             </div>
 
-            <div class="bottom">
-                <div class="bottom-left">
-                    <img src="assets/icons/user.png" alt="user" class="bottom-user">
-                    <div class="intro">Hi there,</div>
-                    <div class="bottom-user-name">John Doe @johndoe</div>
-                </div>
-
-                <div class="bottom-right">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="main">
-            <div class="projects">
+            <div class="main">
+                <div class="left-main">
+                    <div class="title">Your Projects</div>
                 
+                <div class="projects">
+                    <div class="project">
+                        <div class="project-name">Project Alpha</div>
+                        <div class="project-description">A new marketing campaign aimed at increasing brand awareness and customer engagement through various digital channels.</div>
+                        <div class="icon">
+                            <img src="assets/icons/star.png" alt="star" class="project-icon">
+                            <img src="assets/icons/view.png" alt="view" class="project-icon">
+                            <img src="assets/icons/network.png" alt="network" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-name">Project Beta</div>
+                        <div class="project-description">Website redesign to improve user experience, enhance visual appeal, and optimize for better search engine rankings.</div>
+                        <div class="icon">
+                            <img src="assets/icons/star.png" alt="star" class="project-icon">
+                            <img src="assets/icons/view.png" alt="view" class="project-icon">
+                            <img src="assets/icons/network.png" alt="network" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-name">Project Gamma</div>
+                        <div class="project-description">Mobile app development to provide users with a seamless and intuitive interface for accessing our services on the go.</div>
+                        <div class="icon">
+                            <img src="assets/icons/star.png" alt="star" class="project-icon">
+                            <img src="assets/icons/view.png" alt="view" class="project-icon">
+                            <img src="assets/icons/network.png" alt="network" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-name">Project Delta</div>
+                        <div class="project-description">SEO optimization to increase organic traffic, improve search engine rankings, and drive more qualified leads to our website.</div>
+                        <div class="icon">
+                            <img src="assets/icons/star.png" alt="star" class="project-icon">
+                            <img src="assets/icons/view.png" alt="view" class="project-icon">
+                            <img src="assets/icons/network.png" alt="network" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-name">Project Epsilon</div>
+                        <div class="project-description">Customer feedback analysis to gain insights into customer satisfaction, identify areas for improvement, and enhance overall service quality.</div>
+                        <div class="icon">
+                            <img src="assets/icons/star.png" alt="star" class="project-icon">
+                            <img src="assets/icons/view.png" alt="view" class="project-icon">
+                            <img src="assets/icons/network.png" alt="network" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-name">Project Zeta</div>
+                        <div class="project-description">Social media strategy to build a strong online presence, engage with our audience, and drive brand loyalty through targeted campaigns.</div>
+                        <div class="icon">
+                            <img src="assets/icons/star.png" alt="star" class="project-icon">
+                            <img src="assets/icons/view.png" alt="view" class="project-icon">
+                            <img src="assets/icons/network.png" alt="network" class="project-icon">
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="right-main">
+                <div class="right-top">
+                    <div class="title" id="anno">Announcements</div>
+                <div class="announcements">
+                    
+                    <div class="announcement">
+                        <div class="announcement-title">New Feature Release</div>
+                        <div class="announcement-description">We are excited to announce the release of our latest feature, which will help you streamline your workflow and boost productivity.</div>
+                    </div>
+                    <div class="border-line"></div>
+                    <div class="announcement">
+                        <div class="announcement-title">Upcoming Event</div>
+                        <div class="announcement-description">Join us for our upcoming event, where you will have the opportunity to network with industry experts, learn new skills, and gain valuable insights.</div>
+                    </div>
+                    <div class="border-line"></div>
+                    <div class="announcement">
+                        <div class="announcement-title">Product Update</div>
+                        <div class="announcement-description">We have made some improvements to our product based on your feedback, so be sure to check out the latest version for an enhanced user experience.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-bottom">
+                <div class="title">Trending Topics</div>
+                <div class="trending">
+                    <div class="people">
+                        <img src="assets/icons/avatar1.png" alt="user" class="avatar1 avatar">
+                        <div class="people-right">
+                            <div class="tag">@tegan</div>
+                            <div class="bio">Building things</div>
+                        </div>
+                    </div>
+                    <div class="people">
+                        <img src="assets/icons/avatar2.png" alt="user" class="avatar2 avatar">
+                        <div class="people-right">
+                            <div class="tag">@alex</div>
+                            <div class="bio">Designing experiences</div>
+                        </div>
+                    </div>
+                    <div class="people">
+                        <img src="assets/icons/avatar3.png" alt="user" class="avatar3 avatar">
+                        <div class="people-right">
+                            <div class="tag">@morgan</div>
+                            <div class="bio">Coding the future</div>
+                        </div>
+                    </div>
+                    <div class="people">
+                        <img src="assets/icons/avatar4.png" alt="user" class="avatar4 avatar">
+                        <div class="people-right">
+                            <div class="tag">@jordan</div>
+                            <div class="bio">Marketing guru</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+            </div>
+
         </div>
-
-        
-
     </div>
 </body>
 </html>
